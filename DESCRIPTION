@@ -1,11 +1,11 @@
 Package: WQRADMM
 Type: Package
-Title: What the package does (short line)
+Title: Distributed Quantile Regression for Longitudinal Big Data Based on ADMM
 Version: 1.0
 Date: 2022-05-11
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Ye Fan, Nan Lin and Liqun Yu
+Maintainer: Ye Fan <fanye0319@outlook.com>
+Description: Fit the longitudinal quantile regression in a parallel way. The package currently supports two estimation methods (the conventional quantile regression (CQR) estimation and the weighted quantile regression (WQR) estimation)
 License: What license is it under?
 Imports: Rcpp (>= 1.0.8.3)
 LinkingTo: Rcpp, RcppArmadillo
