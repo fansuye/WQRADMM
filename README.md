@@ -14,7 +14,7 @@ Two main functions are included: **WQRADMM( )** and **paraWQRADMM( )**, repectiv
 ```
 install.packages("devtools")
 library(devtools)
-install_github("https://github.com/nanlin999/WQRADMM", force = TRUE)
+install_github("https://github.com/fansuye/WQRADMM", force = TRUE)
 library(WQRADMM)
 
 N = 10000
