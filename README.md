@@ -1,5 +1,5 @@
 # WQRADMM for macOS users
-## Instructions:
+## Instructions
 
 R package for distributed quantile regression in longitudinal big data based on ADMM.
 
@@ -13,7 +13,7 @@ Two main functions are included: **WQRADMM( )** and **paraWQRADMM( )**, repectiv
 ```
 Install Xcode before installing this package. 
 ```
-**Code for installing WQRADMM**
+## Code for installing WQRADMM 
 ```
 install.packages("devtools")
 library(devtools)
@@ -21,7 +21,7 @@ install_github("https://github.com/nanlin999/WQRADMMmac", force = TRUE)
 library(WQRADMM)
 ```
 
-**Code for testing WQRADMM**
+## Code for testing WQRADMM
 
 ```
 ###function for generating the correlation matrix (AR(1) or exchangeable)
