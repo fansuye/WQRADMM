@@ -1,5 +1,5 @@
 # WQRADMM for macOS users
-**Instructions:**
+## Instructions:
 
 R package for distributed quantile regression in longitudinal big data based on ADMM.
 
@@ -9,7 +9,7 @@ It can be used to reproduce the simulation studies in the following paper:
 
 Two main functions are included: **WQRADMM( )** and **paraWQRADMM( )**, repectively designed for non-distributed and distributed environments.
 
-# Installation requirements
+## Installation requirements
 ```
 Install Xcode before installing this package. 
 ```
