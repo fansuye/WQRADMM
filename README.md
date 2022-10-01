@@ -15,13 +15,17 @@ Install Xcode before installing this package.
 ```
 ## Code for installing WQRADMM 
 ```
+install.packages("Rcpp")
+library(Rcpp)
+install.packages("RcppArmadillo")
+library(RcppArmadillo)
 install.packages("devtools")
 library(devtools)
 install_github("https://github.com/nanlin999/WQRADMMmac", force = TRUE)
 library(WQRADMM)
 ```
 
-## Code for testing WQRADMM
+## Code for testing WQRADMM and parallel WQRADMM
 
 ```
 ###function for generating the correlation matrix (AR(1) or exchangeable)
