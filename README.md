@@ -75,7 +75,7 @@ Y = beta0+X%*%beta+apply(X[,1:d]*e/d, 1, sum)
 beta_true = c(beta0, quantile(e/d, tau)+beta[1:d], beta[(d+1):p])
 
 ###calculate the WQR estimator by WQR-ADMM
-WQR = WQRADMM::WQRADMM(X, Y, rep, tau, TRUE, "WQR", TRUE)
+WQR = WQRADMM::WQRADMM(X, Y, rep, tau, TRUE, "WQR", FALSE)
 beta_WQR = WQR$Estimation_WQR
 AE_WQR = sum(abs(beta_WQR-beta_true))
 Time_WQR = WQR$Time_WQR
@@ -83,7 +83,7 @@ Time_WQRADMM = WQR$Time_total
 
 ###calculate the WQR estimator by parallel WQR-ADMM
 k = 10              ###number of partitions
-paraWQR = WQRADMM::paraWQRADMM(X, Y, k, rep, tau, TRUE, "WQR", TRUE)
+paraWQR = WQRADMM::paraWQRADMM(X, Y, k, rep, tau, TRUE, "WQR", FALSE)
 beta_paraWQR = paraWQR$Estimation_WQR
 AE_paraWQR = sum(abs(beta_paraWQR-beta_true))
 Time_paraWQR = paraWQR$Time_WQR
