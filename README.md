@@ -12,6 +12,7 @@ Two main functions are included: **WQRADMM( )** and **paraWQRADMM( )**, repectiv
 ## Installation requirements
 ```
 Install Xcode before installing this package. 
+In addition, please update your cpp to version 1.0.9.
 ```
 ## Code for installing WQRADMM 
 ```
